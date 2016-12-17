@@ -16,6 +16,8 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     IdrisLsp.IdeMode
+                     , IdrisLsp.Command
+                     , IdrisLsp.Message
   build-depends:       base >= 4.7 && < 5
                      , mtl
                      , containers
